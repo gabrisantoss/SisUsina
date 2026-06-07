@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+ambiente_novo/
+
+# Node/Vite/desktop builds
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Runtime data and secrets
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.env
+*.env.*
+!.env.example
+admin-bootstrap.txt
+
+# Portal and system runtime outputs
+logs/
+backups/
+backups_portal_bazan/
+restauracoes_portal_bazan/
+launcher_web/logs/
+launcher_web/.backup_tmp/
+balanca-audit/apps/api/data/
+balanca-audit/apps/api/uploads/
+balanca-audit/apps/api/backups/
+balanca-audit/apps/api/analysis-files/
+balanca-audit/apps/api/map-documents/
+app_notas/web_app/generated/
+app_colaboradores/documentos/
+app_colaboradores/relatorios_gerados/
+app_colaboradores/web_app/generated/
+analises/input_scans/
+
+# Operational documents and generated exports
+02_RELATORIOS_E_PDFS/
+03_PLANILHAS/
+04_MAPAS_E_GPS/
+05_IMAGENS_SOLTAS/
+Fazendas com OS/
+*.pdf
+*.xlsx
+*.xls
+*.csv
+*.zip
+*.7z
+*.rar
+
+# IDE/OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
